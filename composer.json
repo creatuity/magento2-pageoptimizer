@@ -1,0 +1,29 @@
+{
+  "name": "creatuity/module-pageoptimizer",
+  "description": "Page DOM Optimizer for better page speeds",
+  "authors": [
+    {
+      "name": "Creatuity Corp",
+      "homepage": "http://www.creatuity.com/"
+    },
+    {
+      "name": "Grzegorz Marszal",
+      "email": "gmarszal@creatuity.com"
+    },
+    {
+      "name": "Wesley Guthrie",
+      "email": "wguthrie@creatuity.com"
+    }
+  ],
+  "require": {},
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Creatuity\\PageOptimizer\\": ""
+    }
+  }
+}

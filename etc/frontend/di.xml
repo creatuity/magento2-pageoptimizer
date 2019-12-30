@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="\Creatuity\PageOptimizer\DomOptimizer\DomOptimizerList">
+        <arguments>
+            <argument name="optimizers" xsi:type="array">
+                <item name="defer_js" xsi:type="object">\Creatuity\PageOptimizer\DomOptimizer\Optimizer\DeferJs</item>
+                <item name="defer_css" xsi:type="object">\Creatuity\PageOptimizer\DomOptimizer\Optimizer\DeferCss</item>
+                <item name="preconnect_external_urls" xsi:type="object">\Creatuity\PageOptimizer\DomOptimizer\Optimizer\PreconnectExternalUrls</item>
+            </argument>
+        </arguments>
+    </type>
+    <preference for="Magento\Framework\View\Result\Page" type="Creatuity\PageOptimizer\View\Result\Page"/>
+</config>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <creatuity_pageoptimizer>
+            <general>
+                <enable_defer_js>0</enable_defer_js>
+                <enable_defer_css>0</enable_defer_css>
+                <enable_defer_font>0</enable_defer_font>
+                <enable_preconnect_external_urls>0</enable_preconnect_external_urls>
+            </general>
+        </creatuity_pageoptimizer>
+    </default>
+</config>
